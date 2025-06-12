@@ -6,6 +6,8 @@ namespace CVParserAI;
 
 class Program
 {
+    private static readonly string _filePath = "C:\\Users\\JohnDoe\\Documents\\TestCV.txt";
+
     static async Task Main(string[] args)
     {
         Console.WriteLine("-- BEGIN --\n");
@@ -23,7 +25,7 @@ class Program
 
     private static object CreatePrompt()
     {
-        string resumeText = File.ReadAllText("C:\\Users\\Ryan.Beckett\\Documents\\TestCV.txt");
+        string resumeText = File.ReadAllText(_filePath);
 
         string prompt = @"
             You are an expert CV parser. Extract the following from the resume:
