@@ -34,7 +34,7 @@ class Program
             - Phone Number
             - Skills
 
-            Return the results exactly as you seen in the following format:";
+            Return the results exactly as you see in the following format:";
 
         prompt += "```{";
         prompt += "\"fullName\" : \"John Doe\",";
