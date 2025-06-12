@@ -1,7 +1,8 @@
-using ConsoleApp1;
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
+
+namespace CVParserAI;
 
 class Program
 {
